@@ -1,0 +1,78 @@
+.navbar-brand {
+    font-size: 3pc;
+    font-style: italic;
+    font-family: Sofia;
+    text-shadow: 0 0 2px red;
+     color: antiquewhite;
+
+}
+
+#navbarSupportedContent {
+    font-size: 1 pc;
+    font-family: Audiowide;
+    font-style: oblique;
+}
+
+#navbar-custom {
+    background-color: rebeccapurple;
+}
+body,button{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2pc;
+
+}
+
+.glow {
+    font-size: 10vh;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-style: italic;
+    font-family: Trirong;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d1eb5e, 0 0 40px#d1eb5e, 0 0 50px #d1eb5e, 0 0 60px #d1eb5e, 0 0 70px #d1eb5e;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #d1eb5e, 0 0 40px #d1eb5e, 0 0 50px #d1eb5e, 0 0 60px #d1eb5e, 0 0 70px #d1eb5e, 0 0 80px #d1eb5e;
+    }
+}
+.roll{
+    font-size: 3vw;
+    font-style: italic;
+    color: aquamarine;
+    font-family: Sofia;
+}
+.container-sm {
+    background-color: #F2F2DA;
+}
+
+@media screen and (min-width: 1200px) {
+    .container-sm {
+        width: 50%;
+        margin-top: 110px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .container-sm {
+        margin-top: 110px;
+        width: 50%;
+
+    }
+    @media screen and (max-width: 600px) {
+    .container-sm {
+        margin-top: 110px;
+        width: 50%;
+
+    }
